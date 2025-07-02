@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/ldgwg23/cloudcat0701:latest
+          tags: ghcr.io/ldgwg23/cloudcat0702:latest
