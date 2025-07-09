@@ -13,12 +13,12 @@ const AUTO_ACCESS = process.env.AUTO_ACCESS || false; // false关闭自动保活
 const FILE_PATH = process.env.FILE_PATH || './tmp';   // 运行目录,sub节点文件保存目录
 const SUB_PATH = process.env.SUB_PATH || 'sub';       // 订阅路径
 const PORT = process.env.SERVER_PORT || process.env.PORT || 3000;        // http服务订阅端口
-const UUID = process.env.UUID || '9a4569a3-9281-42d7-a8f6-32d9eeaf7c21'; // 使用哪吒v1,在不同的平台运行需修改UUID,否则会覆盖
+const UUID = process.env.UUID || '083b76fa-5660-405e-8f0c-0051b327d0b9'; // 使用哪吒v1,在不同的平台运行需修改UUID,否则会覆盖
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';        // 哪吒v1填写形式: nz.abc.com:8008  哪吒v0填写形式：nz.abc.com
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';            // 使用哪吒v1请留空，哪吒v0需填写
 const NEZHA_KEY = process.env.NEZHA_KEY || '';              // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'cloudcat0701.gjfdyiudt.tk';          // 固定隧道域名,留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"7f0ac62ab2dd0bb459c8c1261b9ca9de","TunnelSecret":"VAX5WNtfXuQMIdYqnRJYUrQJRSBeWprdB9KBlQwyGOM=","TunnelID":"939bf100-67f7-40bc-80f2-aa7c2217a503","Endpoint":""}';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://fscarmen.cloudflare.now.cc
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'cloudcat0709.gjfdyiudt.tk';          // 固定隧道域名,留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"7f0ac62ab2dd0bb459c8c1261b9ca9de","TunnelSecret":"w4i/3KMfAJ8hZeiVUi+6x7ewHPbKAAXR7paam/rQzbM=","TunnelID":"24e0bd6a-6796-4121-b711-ca7cd1fb75c2","Endpoint":""}';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://fscarmen.cloudflare.now.cc
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
 const CFIP = process.env.CFIP || 'www.visa.com.sg';         // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
